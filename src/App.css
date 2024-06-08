@@ -1,0 +1,42 @@
+/* App.css */
+.App {
+  text-align: justify;
+  font-family: Arial, sans-serif;
+}
+
+/* SalaryCalculator.css */
+.salary-calculator {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-panel,
+.right-panel {
+  width: 45%;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.allowance,
+.deduction {
+  display: flex;
+  justify-content: space-between;
+  align-items:start;
+  margin-bottom: 10px;
+}
+
+.allowance input,
+.deduction input {
+  margin-right: 10px;
+}
+
+.results p {
+  margin: 5px 0;
+}
+
+.results h3 {
+  margin-top: 20px;
+}
